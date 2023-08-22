@@ -1,0 +1,21 @@
+const mix = require('laravel-mix');
+
+mix.js('resources/js/app.js', 'public/js')
+    .sass('resources/sass/app.scss', 'public/css')
+    .js('resources/js/media.js', 'public/js')
+    .sass('resources/sass/media.scss', 'public/css')
+    .js('resources/js/content.js', 'public/js')
+    .sass('resources/sass/content.scss', 'public/css')
+    .js('resources/js/search.js', 'public/js')
+    .sass('resources/sass/search.scss', 'public/css')
+    .js('resources/js/preview.js', 'public/js')
+    .sass('resources/sass/preview.scss', 'public/css')
+    .js('resources/js/collaboration.js', 'public/js')
+    .sass('resources/sass/collaboration.scss', 'public/css')
+    .js('resources/js/notification.js', 'public/js')
+    .sass('resources/sass/notification.scss', 'public/css')
+    .js('resources/js/mobile.js', 'public/js')
+    .sass('resources/sass/mobile.scss', 'public/css')
+    .js('resources/js/deployment.js', 'public/js')
+    .sass('resources/sass/deployment.scss', 'public/css')
+    .version();

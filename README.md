@@ -1,2 +1,0 @@
-# LemonTree
-LemonTree Laravel Plugin
